@@ -1,0 +1,24 @@
+{
+  "appVersion": "1.1.0",
+  "dataVersion": "0.14.0-wipe10",
+  "gameVersion": "0.14.0",
+  "lastUpdated": "2026-09-06T20:00:00Z",
+  "changelog": [
+    {
+      "date": "2026-09-06",
+      "type": "APP",
+      "summary": "Auth system, saved kits, group finder presence, Vercel deploy, auto-update checker"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "GAME",
+      "summary": "Wipe 10 / 0.14.0 — Sazava Valley, Mag Packing, Never Wipe Box"
+    }
+  ],
+  "sources": [
+    "https://got.miraheze.org/wiki/Wipes",
+    "https://ghostsoftabor.com/"
+  ],
+  "checkIntervalMinutes": 60,
+  "notes": "Clients compare local dataVersion against this manifest after deploy."
+}
